@@ -1,0 +1,31 @@
+.page {
+    display: grid;
+    grid-template-rows: 60px 105px 105px;
+    grid-template-columns: 105px 105px;
+    grid-template-areas: "counter counter"
+                         "box1 box2"
+                         "box3 box4";
+}
+
+.counter {
+    grid-area: counter;
+    font-size: xx-large;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.box1 {
+    grid-area: box1;
+}
+
+.box2 {
+    grid-area: box2;
+}
+
+.box3 {
+    grid-area: box3;
+}
+
+.box4 {
+    grid-area: box4;
+}

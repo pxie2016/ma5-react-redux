@@ -1,0 +1,15 @@
+.box {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 1px;
+    border: 1px solid grey;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
